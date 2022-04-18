@@ -8,8 +8,7 @@ import { map } from 'rxjs';
 })
 export class AuthService {
 
-  private url = 'https://identitytoolkit.googleapis.com/v1/accounts:';
-  private apikey= 'AIzaSyDUjt1mDTKYjTCXUEJYdlvHsPNUZxs-de4';
+  
   userToken:string='';
  // https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]
 
